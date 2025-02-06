@@ -1,13 +1,11 @@
- "use client"
-import RW from './components/rw';
- 
+"use client";
+
+import App from "./components/RW";
 
 export default function Home() {
   return (
     <div>
-      <RW />
-       
-      
+      <App />
     </div>
   );
 }
